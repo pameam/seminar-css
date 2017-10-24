@@ -1,0 +1,69 @@
+/*SETEAR*/
+body {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #303030;
+  margin:0;
+  padding:0;
+}
+/*clases reutilizables*/
+.text-uppercase {
+  text-transform: uppercase;
+}
+.box-header {
+  display: inline-block;
+}
+
+/*clases especificas*/
+
+.logo-header {
+  width: 200px;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+li a{
+  color: inherit;
+  text-decoration: none;
+}
+header {
+  position: relative;
+}
+nav {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+section {
+  text-align: center;
+}
+div {
+  width: 33%;
+  display: inline-block;
+}
+span{
+  font-size: 60px;
+}
+body section:last-child {
+  margin: 30px 50px 0 70px;
+
+}
+img[alt="laboratoria"]{
+  width: 120px;
+}
+button{
+  background-color: #f9a91a;
+  padding: 5px;
+  color:#fff;
+  border:0px;
+  border-radius: 10px;
+  font-weight: 600px;
+}
+.box-header ul li{
+  margin:0 15px;
+}
+span:hover , .box-header ul li:hover{
+  color:#f9a91a;
+}
